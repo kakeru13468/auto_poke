@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 count = 10
 driver = webdriver.Edge()
 driver.get("https://www.facebook.com/pokes")

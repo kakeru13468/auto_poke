@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>自訂登入頁面</title>
+</head>
+<body>
+  <h1>請輸入帳號和密碼</h1>
+  
+  <form action="/login" method="POST">
+    <label for="email">電子郵件：</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="password">密碼：</label>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <input type="submit" value="登入">
+  </form>
+</body>
+</html>
