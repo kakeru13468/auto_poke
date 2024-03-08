@@ -12,3 +12,6 @@ pip install requirements.txt
 pyinstaller -F --add-data="templates;templates" app.py
 ```
 4. enter your email and password
+
+### note
+We are still in the development stage, so the poke count is set to 1
